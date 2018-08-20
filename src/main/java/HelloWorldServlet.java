@@ -17,7 +17,7 @@ public class HelloWorldServlet extends HttpServlet {
 
     try {
         out = res.getWriter();
-    out.println("<h1>Hi, World!</h1>");
+    out.println("<h1>Hi, " + name + "</h1>" );
     } catch (IOException e) {
         e.printStackTrace();
     }
