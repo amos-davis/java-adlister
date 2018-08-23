@@ -28,7 +28,7 @@ PRIMARY KEY (id)
 describe users;
 describe ads;
 
-SELECT * FROM users;
+SELECT * FROM ads;
 
 
 
