@@ -29,6 +29,7 @@ describe users;
 describe ads;
 
 SELECT * FROM ads;
+SELECT * FROM users;
 
 
 
